@@ -6,9 +6,9 @@ export default class HomeScreen extends Component {
         return (
             <View style={styles.container}>
                 <Button
-                    title='Go to Login Screen'
+                    title='I am the Home Screen'
                     onPress=
-                    { () => this.props.navigation.navigate('Login') }/>
+                    { () => this.props.navigation.navigate('Stream') }/>
             </View>
         );
     }
